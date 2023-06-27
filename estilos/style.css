@@ -27,7 +27,7 @@ body{
 }
 menu a {
     text-decoration: none;
-    color: rgb(189, 189, 70);
+    color: #bdbd46;
 }
 #cab {
     display: flex;
@@ -71,7 +71,7 @@ menu a {
 }
 #oculto a:hover {
     text-decoration: underline;
-    color: rgb(139, 139, 23);
+    color: #8b8b17;
 }
 #burguer {
     width: 100%;

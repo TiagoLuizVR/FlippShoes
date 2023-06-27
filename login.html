@@ -7,6 +7,34 @@
     <title>Login FlippShoes</title>
 </head>
 <body>
-    
+    <header id="cabecalho">
+        <h1 id="logo">FlippShoes</h1>
+        <a href="index.html">Ir para a página principal</a>
+    </header>
+
+    <main>
+        <div id="container">
+            <div id="containercampos">
+                <h1 id="titulologin">Login FlippShoes</h1>
+
+                    <form action="cadastro.php" autocomplete="on" method="post">
+                        <label for="imail">E-mail</label>
+                        <input type="email" name="mail" id="imail" class="campos" required>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" class="campos" required>
+                                        <div>
+                        <input type="checkbox" name="lembrar" id="ilembrar">
+                        <label for="ilembrar">Lembre-se de Mim</label>
+                                        </div>
+                        
+                                        <div style="margin-top: 20px;">
+                        <button type="submit">Entrar</button>
+                        <a id="botaocad" href="cadastro.html">Cadastrar-se</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>

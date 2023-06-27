@@ -1,2 +1,91 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+}
+#logo {
+    color: #17A2B8;
+    font-size: 2em;
+    font-weight: bold;
+}
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #343A40;
+    padding: 10px;
+}
+#cabecalho a {
+    text-decoration: none;
+    color: #bdbd46;
+}
+#cabecalho a:hover {
+    text-decoration: underline;
+    color: #8b8b17;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulologin {
+    font-size: 1.5em;
+    color: green;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+#container {
+    height: 400px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+#containercampos {
+    width: 230px;
+    margin: auto;
+    height: 100%;
+}
+.campos {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type= checkbox] {
+    margin: 10px 0px;
+}
+button[type=submit] {
+    background-color: rgb(51, 51, 124);
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+#botaocad {
+    display: inline-block;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 110px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+}
