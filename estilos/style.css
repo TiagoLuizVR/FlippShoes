@@ -5,7 +5,7 @@
     padding: 0px;
     margin: 0px;
 }
-body {
+body{
     height: 100vh;
     width: 100vw;
 }
@@ -23,12 +23,87 @@ body {
     color: #17A2B8;
     font-size: 1.5em;
     font-weight: bold;
-}
-menu {
-    width: 100%;
-    background-color: #343A40;
+    margin: 5px;
+    text-align: center;
 }
 menu a {
     text-decoration: none;
     color: rgb(189, 189, 70);
+}
+#cab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #343A40;
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#search input {
+    height: 30px;
+    width: 70%;
+    margin: 5px 0px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: green;
+    border: 1px solid green;
+    height: 30px;
+    width: 35px;
+    margin-top: 4px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+#oculto {
+    display: none;
+}
+#oculto a {
+    padding: 4px 0px;
+    display: block;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#oculto a:hover {
+    text-decoration: underline;
+    color: rgb(139, 139, 23);
+}
+#burguer {
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+#titulodestak {
+    color: green;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.prodestak a img {
+    height: 235px;
+    width: 235px;
+}
+.prodestak a {
+    text-decoration: none;
+    color: green;
+}
+.prodestak {
+    display: inline-block;
+    background-color: #343A40;
+    padding: 10px 10px 40px 10px;
+    margin: 3px 0px;
+}
+#containerdestak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -12,23 +12,73 @@
         <div id="ad">
             <p>A melhor loja de tênis do Brasil!</p>
         </div>
-        <menu style="display: flex; flex-direction: row; justify-content: space-between;">
-            <div>
+        <menu id="cab">
+            <div style="width: 100%;">
                 <p id="logo">FlippShoes</p>
-                <div>
-                    <input type="text" name="pesquisa" id="ipesquisa" placeholder="Pesquisar"><span class="material-icons">search</span>
+                <div id="search">
+                    <input type="text" name="pesquisa" id="ipesquisa" placeholder="Pesquisar"><div id="botao"><span class="material-icons">search</span></div>
                 </div>
             </div>
 
-            <div>
-                <a href="#">Entrar</a>
-                <a href="#">Cadastrar-se</a>
+            <div id="burguer" onclick="menu()">
+                <span class="material-icons">menu</span>
+                <div id="oculto">
+                    <a href="#">Entrar</a>
+                    <a href="#">Cadastrar-se</a>
+                </div>
             </div>
         </menu>
     </header>
 
     <main>
 
+        <article style="padding-top: 40px;">
+            <h1 id="titulodestak">Ofertas em Destaque!</h1>
+
+            <article id="containerdestak">
+
+                <section class="prodestak">
+                    <a href="#">
+                        <img src="imagens/destakadidas.jpg" alt="">
+                        <p style="padding-bottom: 10px;"><strong>Tênis Adidas Pro Sport 1.0</strong></p>
+                        <p><strong>R$120,00</strong></p>
+                        <p>Em até 3x de R$40,00 s/ juros!</p>
+                    </a>
+                </section>
+
+                <section class="prodestak">
+                    <a href="#">
+                        <img src="imagens/destaknike.jpg" alt="">
+                        <p style="padding-bottom: 10px;"><strong>Tênis Nike Evolution</strong></p>
+                        <p><strong>R$150,00</strong></p>
+                        <p>Em até 3x de R$50,00 s/ juros!</p>
+                    </a>
+                </section>
+
+                <section class="prodestak">
+                    <a href="#">
+                        <img src="imagens/destakpuma.jpg" alt="">
+                        <p style="padding-bottom: 10px;"><strong>Tênis Puma Saltus</strong></p>
+                        <p><strong>R$100,00</strong></p>
+                        <p>Em até 3x de R$33,33 s/ juros!</p>
+                    </a>
+                </section>
+
+            </article>
+        </article>
+
     </main>
+
+
+    <script>
+        function menu() {
+            if (oculto.style.display == 'none') {
+                oculto.style.display = 'block';
+            }
+            else {
+                oculto.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
