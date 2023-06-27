@@ -35,57 +35,63 @@ main {
     justify-content: center;
     align-items: center;
 }
-#titulologin {
-    font-size: 1.5em;
-    color: green;
-    text-align: center;
-    margin: 10px 0px 20px 0px;
-}
 #container {
     height: 400px;
     width: 350px;
+    margin-top: 70px;
     border: 1px solid lightgray;
     border-radius: 10px;
-    margin-top: 70px;
 }
-#containercampos {
+form {
     width: 230px;
-    margin: auto;
     height: 100%;
+    margin: auto;
 }
-.campos {
+#titcad {
+    text-align: center;
+    font-size: 1.5em;
+    color: green;
+    margin: 10px 0px 20px 0px;
+}
+input[id="inome"], input[id="isobre"] {
     width: 100%;
     height: 40px;
     border: 1px solid lightgray;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-input[type= checkbox] {
-    margin: 10px 0px;
+#boxnome, #boxsobre {
+    display: inline-block;
+    width: 49%;
 }
-button[type=submit] {
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button[type="submit"] {
+    height: 40px;
+    width: 100px;
     background-color: #33337c;
     border: none;
-    height: 40px;
-    width: 70px;
     border-radius: 5px;
-    cursor: pointer;
     color: white;
-    font-weight: bold;
     font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
 }
-#botaocad {
+form > a {
     display: inline-block;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
     height: 30px;
-    width: 110px;
+    width: 70px;
+    background-color: gray;
     color: white;
-    font-size: 1em;
     font-weight: bold;
-    cursor: pointer;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
+    font-size: 1em;
     text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
 }

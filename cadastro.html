@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylecad.css">
+    <link rel="stylesheet" href="estilos/stylecad.css">
     <title>Cadastro FlippShoes</title>
 </head>
 <body>
@@ -14,6 +14,42 @@
 
     <main>
 
+        <article id="container">
+            <h1 id="titcad">Cadastro</h1>
+            <form action="cadastro.php" method="post" autocomplete="on">
+
+                <div id="boxnome">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome">
+                </div>
+
+                <div id="boxsobre">
+                    <label for="isobre">Sobrenome</label>
+                    <input type="text" name="sobre" id="isobre">
+                </div>
+
+                <label for="imail">E-mail</label>
+                <input type="email" name="mail" id="imail">
+
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha">
+
+                <div style="margin-bottom: 10px;">
+                    <p>Sexo</p>
+                    <div>
+                        <input type="radio" name="sexo" id="feminino">
+                        <label for="femenino">Feminino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sexo" id="masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+                <a href="login.html">Login</a>
+            </form>
+        </article>
 
     </main>
     
