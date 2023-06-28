@@ -57,3 +57,9 @@ td, th {
 tbody tr:hover {
     background-color: #09454e;
 }
+caption {
+    color: #17A2B8;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
