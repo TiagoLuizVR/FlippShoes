@@ -127,6 +127,10 @@ menu a {
     padding: 10px 10px 40px 10px;
     margin: 3px 0px;
 }
+.prodestak, .produto {
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
 .espacoprod {
     margin-bottom: 10px;
 }
