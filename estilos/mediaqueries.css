@@ -4,8 +4,44 @@
     #search input {
         width: 50%;
     }
-    main {
+    #containerdestak {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #containerofertas {
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+        max-width: 800px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #cab {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #divtopsearch {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    #logo {
+        margin: 10px;
+    }
+    #search {
         width: 100%;
+        justify-content: flex-start;
+    }
+    #botoespc {
+        display: block;
+        padding: 10px;
+    }
+    #botoespc a {
+        padding: 10px;
+    }
+    #burguer {
+        display: none;
     }
     #containerdestak {
         flex-direction: row;
@@ -14,7 +50,7 @@
     #containerofertas {
         flex-flow: row wrap;
         justify-content: center;
+        max-width: 1300px;
         margin: auto;
-        max-width: 800px;
     }
 }

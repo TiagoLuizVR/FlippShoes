@@ -13,12 +13,18 @@
         <div id="ad">
             <p>A melhor loja de tênis do Brasil!</p>
         </div>
+
         <menu id="cab">
-            <div style="width: 100%;">
+            <div id="divtopsearch">
                 <p id="logo">FlippShoes</p>
                 <div id="search">
                     <input type="text" name="pesquisa" id="ipesquisa" placeholder="Pesquisar"><div id="botao"><span class="material-icons">search</span></div>
                 </div>
+            </div>
+
+            <div id="botoespc">
+                <a href="login.html">Login</a>
+                <a href="cadastro.html">Cadastrar-se</a>
             </div>
 
             <div id="burguer" onclick="menu()">
@@ -28,6 +34,7 @@
                     <a href="cadastro.html">Cadastrar-se</a>
                 </div>
             </div>
+
         </menu>
     </header>
 
@@ -134,6 +141,13 @@
                     <p>Em até 4x de R$87,50 s/ juros!</p></a>
                 </section>
 
+                <section class="produto">
+                    <a href="#"><img src="imagens/ofertapuma4.jpg" alt="">
+                    <p class="espacoprod">Tênis Puma Color</p>
+                    <p><strong>R$400,00</strong></p>
+                    <p>Em até 5x de R$80,00 s/ juros!</p></a>
+                </section>
+
             </article>
         </article>
 
@@ -166,6 +180,7 @@
             }
             else {
                 oculto.style.display = 'block';
+                oculto.style.width = '100%';
             }
         }
     </script>
