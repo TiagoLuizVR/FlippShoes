@@ -7,6 +7,7 @@
     #containerdestak {
         flex-flow: row wrap;
         justify-content: center;
+        row-gap: 3px;
     }
     #containerofertas {
         flex-flow: row wrap;
@@ -15,7 +16,7 @@
         max-width: 800px;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     #cab {
         flex-direction: row;
         justify-content: space-between;
